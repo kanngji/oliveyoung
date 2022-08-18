@@ -10,6 +10,20 @@
       src="https://kit.fontawesome.com/ebe7817d95.js"
       crossorigin="anonymous"
     ></script>
+    <!-- slick slide -->
+    <script
+      text="text/javascript"
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+
+    <!-- js연결 -->
+    <script defer src="./js/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <!-- css link -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -44,5 +58,19 @@
         </ul>
       </header>
     </section>
+    <!-- slide부분은 width100% 먹기때문에 section 밖에 하자 -->
+
+    <div class="slide">
+      <div><img src="./img/index/slide1.jpg" alt="slide1" /></div>
+      <div><img src="./img/index/slide2.jpg" alt="slide2" /></div>
+      <div><img src="./img/index/slide3.jpg" alt="slide3" /></div>
+    </div>
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -75,4 +75,9 @@ a {
   margin-left: 1vw;
 }
 
+.slide {
+  width: 100%;
+  border: 1px solid #000;
+}
+
 /*# sourceMappingURL=style.css.map */
