@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>올리브영 온라인몰</title>
+    <!-- FONTAWESOME LINK -->
+    <script
+      src="https://kit.fontawesome.com/ebe7817d95.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- 헤더위 width 100% 아니고 네이버처럼 중앙으로 -->
     <section id="container">
       <ul class="top_util">
         <li class="join"><a href="#">회원가입</a></li>
@@ -18,6 +24,25 @@
         <li class="store"><a href="#">매장안내</a></li>
         <li class="global"><a href="#">Global</a></li>
       </ul>
+      <!-- 헤더부분 -->
+      <header>
+        <div class="logo">
+          <img src="./img/index/JGE22.png" alt="logo" />
+        </div>
+        <div class="search">
+          <input type="text" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <ul class="header__right">
+          <li id="todayDelivery">오늘 배송<i class="fa-solid fa-truck"></i></li>
+          <li id="storeNews">
+            관심매장소식<i class="fa-solid fa-chevron-down"></i>
+          </li>
+          <li id="recentMymenu">
+            최근 본 상품<i class="fa-solid fa-chevron-down"></i>
+          </li>
+        </ul>
+      </header>
     </section>
   </body>
 </html>
