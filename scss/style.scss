@@ -1,7 +1,7 @@
 // reset css import 시키기
 @import "reset";
 
-#container {
+.container {
   // display: flex;
   width: 80%;
   //   border: 1px solid #000;
@@ -9,7 +9,7 @@
   position: relative;
 }
 
-#container .top_util {
+.container .top_util {
   //   position: absolute;
   width: 100%;
   display: flex;
@@ -31,7 +31,7 @@
   }
 }
 
-#container header {
+.container header {
   position: relative;
   display: flex;
   // border: 1px solid #000;
@@ -76,4 +76,38 @@
 .slide {
   width: 100%;
   border: 1px solid #000;
+}
+
+.container .ad img {
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.container .inquire {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+
+  .wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    .notify {
+      h4 {
+        color: #777;
+      }
+    }
+
+    .service-Center {
+      h4 {
+        color: #999;
+      }
+      p {
+        font-size: 2vw;
+        color: rgb(187, 239, 82);
+      }
+    }
+  }
 }

@@ -28,14 +28,15 @@
   </head>
   <body>
     <!-- 헤더위 width 100% 아니고 네이버처럼 중앙으로 -->
-    <section id="container">
+    <section class="container">
       <ul class="top_util">
         <li class="join"><a href="#">회원가입</a></li>
         <li class="login"><a href="#">로그인</a></li>
         <li class="cart"><a href="#">장바구니</a></li>
         <li class="order"><a href="#">주문배송</a></li>
         <li class="customer"><a href="#">고객센터</a></li>
-        <li class="store"><a href="#">매장안내</a></li>
+        <!-- 승수가 만든 매장안내 html 연결 -->
+        <li class="store"><a href="./Soo/map.html">매장안내</a></li>
         <li class="global"><a href="#">Global</a></li>
       </ul>
       <!-- 헤더부분 -->
@@ -65,6 +66,35 @@
       <div><img src="./img/index/slide2.jpg" alt="slide2" /></div>
       <div><img src="./img/index/slide3.jpg" alt="slide3" /></div>
     </div>
+    <!-- 클래스명을 container로 줘서 width값을 80%로 고정 -->
+    <section class="container">
+      <div class="ad">
+        <img src="./img/index/ovy1.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="inquire">
+        <div class="wrap">
+          <div class="notify">
+            <h2>공지사항</h2>
+            <h4>새로운 소식이 없어요</h4>
+          </div>
+
+          <div class="service-Center">
+            <h2>고객센터<br />이용안내</h2>
+            <h4>온라인몰고객센터</h4>
+            <p>0000-0000</p>
+
+            <h4>매장고객센터</h4>
+            <p>0000-0000</p>
+          </div>
+        </div>
+        <div class="app-promotion">
+          <img src="./img/index/promo.png" alt="" />
+        </div>
+      </div>
+    </section>
 
     <!-- jquery -->
     <script
