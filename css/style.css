@@ -77,11 +77,9 @@ a {
 
 .slide {
   width: 100%;
-  border: 1px solid #000;
 }
 
 .container .ad img {
-  border: 1px solid #000;
   width: 100%;
 }
 
@@ -89,13 +87,11 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border: 1px solid #000;
 }
 .container .inquire .wrap {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  border: 1px solid red;
 }
 .container .inquire .wrap .notify h4 {
   color: #777;
@@ -106,6 +102,42 @@ a {
 .container .inquire .wrap .service-Center p {
   font-size: 2vw;
   color: rgb(187, 239, 82);
+}
+
+footer {
+  width: 100%;
+  background-color: #eee;
+}
+footer .nav {
+  height: 4vw;
+  line-height: 4vw;
+}
+footer .nav a::after {
+  content: "|";
+  margin-left: 1vw;
+}
+footer .company {
+  width: 100%;
+  background-color: #fff;
+  height: 10vw;
+}
+footer .company .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+}
+footer .company .container .team-logo {
+  width: 7vw;
+  height: 7vw;
+}
+footer .company .container .team-logo img {
+  width: 100%;
+  height: 100%;
+}
+footer .copyRight {
+  width: 100%;
+  background-color: #eee;
+  height: 3vw;
 }
 
 /*# sourceMappingURL=style.css.map */
