@@ -83,6 +83,25 @@
   width: 100%;
 }
 
+.container .items {
+  display: flex;
+  // flex-basis: 50%;
+  .item {
+    border: 1px solid #000;
+    //2분할으로 나눌려고 flex:1;
+    flex: 1;
+    h2 {
+    }
+    .jihoonItem {
+      display: flex;
+      img {
+        width: 10vw;
+        height: 10vw;
+      }
+    }
+  }
+}
+
 .container .inquire {
   width: 100%;
   display: flex;

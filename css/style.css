@@ -83,6 +83,21 @@ a {
   width: 100%;
 }
 
+.container .items {
+  display: flex;
+}
+.container .items .item {
+  border: 1px solid #000;
+  flex: 1;
+}
+.container .items .item .jihoonItem {
+  display: flex;
+}
+.container .items .item .jihoonItem img {
+  width: 10vw;
+  height: 10vw;
+}
+
 .container .inquire {
   width: 100%;
   display: flex;
