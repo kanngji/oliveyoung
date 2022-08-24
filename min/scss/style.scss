@@ -1,0 +1,236 @@
+/* RESET */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f6f6f6;
+
+
+    .login {
+        background-color: white;
+        width: 45vw;
+        height: 40vw;
+        margin: 0 auto;
+        margin-top: 9%;
+        position: relative;
+    
+        .login_word {
+            position: absolute;
+            font-size: 1.1vw;
+            left: 15.7vw;
+            top: 8vw;
+            text-align: center;
+
+
+    
+            h1 {
+                margin-bottom: 0.6vw;
+            }
+
+            p {
+                color: gray;
+                font-size: 0.9vw;
+            }
+        }
+
+        .id_password {
+            position: relative;
+
+            .id {
+                width: 24.9vw;
+                height: 3vw;
+                position: absolute;
+                top: 13vw;
+                left: 10vw;
+                border: 1px solid gray;
+                border-radius: 6px;
+                padding: 0 1vw;
+
+                ::placeholder{
+                    left: 10vw;
+                }
+
+                
+            &:focus {
+                outline-color: #9BCE26;
+            }
+
+            }
+            
+            .password {
+                width: 24.9vw;
+                height: 3vw;
+                position: absolute;
+                top: 16vw;
+                left: 10vw;
+                border: 1px solid gray;
+                border-radius: 6px;
+                padding: 0 1vw;
+
+                &:focus {
+                    outline-color: #9BCE26;
+                }
+            }
+        }
+
+        .checkbox {
+            position: relative;
+
+            .check__box {
+                width: 1.1vw;
+                height: 1.1vw;
+                position: absolute;
+                top: 20vw;
+                left: 10vw;
+
+                // &:focus{
+                //     outline-color: yellowgreen;
+                //     background-color: yellowgreen;
+                // }
+            }
+
+            p {
+                position: absolute;
+                top: 20vw;
+                left: 11.5vw;
+                color: #726f6f;
+            }
+        }
+
+        .find {
+            position: relative;
+            display: flex;
+
+            li {
+                color: #c8c8c8;
+                position: absolute;
+                font-size: 0.75vw;
+                top: 20.2vw;
+                left: 23.5vw;
+                cursor: pointer;
+                
+                a {
+                    text-decoration: none;
+                    color: #9b9898;
+                }
+
+                &:not(:first-child) {
+                    margin-left: 2vw;
+    
+                    &::before{
+                        content: "|";
+                        margin:0 1vw 0 3.5vw;
+                    }
+                }
+
+            }
+        }
+
+        .login_btn {
+            position: absolute;
+            width: 25vw;
+            background-color: #9BCE26;
+            top: 22.5vw;
+            left: 10vw;
+            text-align: center;
+            cursor: pointer;
+
+            p {
+                padding: 0.8vw;
+                font-size: 1.2vw;
+                color: white;
+            }
+        }
+
+        .icons {
+            position: relative;
+
+            p {
+                position: absolute;
+                top: 26.9vw;
+                left: 10vw;
+                color: #9b9898;
+                font-size: 0.8;
+            }
+
+            i{
+                color: black;
+                font-size: 1vw;
+                margin-left: 3vw;
+                transform: translate(18vw, 27vw);
+                
+            }
+
+            hr {
+                transform: translate(10vw, 29vw);
+                width: 25vw;
+            }
+        }
+        
+        .cjone_logo {
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 31vw;
+                left: 9.5vw;
+            }
+
+            p {
+                position: absolute;
+                top: 33vw;
+                left: 9.5vw;
+                font-size: 0.7vw;
+                color: #9b9898;
+            }
+        }
+
+        .register_btn {
+            border: 1px solid #9b9898;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 0.5vw 1.3vw;
+            position: absolute;
+            top: 34vw;
+            left: 27vw;
+            font-size: 0.6vw;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width:100%;
+    height: 20vw;
+    margin-top: 10%;
+    background-color: black;
+}
