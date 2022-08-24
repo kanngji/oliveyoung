@@ -32,7 +32,7 @@ for (var i = 0; i < data.length; i++) {
   });
 
   // 마커가 표시될 위치입니다
-  var markerPosition = new kakao.maps.LatLng(data[i][0], data[i][1]);
+  // var markerPosition = new kakao.maps.LatLng(data[i][0], data[i][1]);
 
   // 마커를 생성합니다
   //   var marker = new kakao.maps.Marker({
