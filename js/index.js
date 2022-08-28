@@ -13,6 +13,6 @@ $(function () {
 });
 
 //팝업창 세팅
-window.onload = function () {
-  window.open("popup.html", "popupNo1", "width=600,height=720");
-};
+// window.onload = function () {
+//   window.open("popup.html", "popupNo1", "width=600,height=720");
+// };
