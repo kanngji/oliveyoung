@@ -22,16 +22,17 @@ a {
 }
 
 .container .top_util {
+  position: absolute;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  left: 45vw;
 }
 .container .top_util li {
-  margin-left: 1vw;
+  margin-left: 0.4vw;
 }
 .container .top_util li::after {
   content: "|";
-  margin-left: 1vw;
+  margin-left: 0.4vw;
   color: rgb(109, 105, 105);
 }
 .container .top_util li a {
@@ -45,8 +46,10 @@ a {
 }
 .container header .logo {
   width: 7vw;
-  height: 7vw;
+  height: 6vw;
   position: relative;
+  left: 15vw;
+  top: 1vw;
 }
 .container header .logo img {
   width: 100%;
@@ -54,29 +57,84 @@ a {
 }
 .container header .search {
   position: absolute;
-  margin: 0 auto;
-  border: 1px solid #000;
-  width: 25vw;
-  top: 2vw;
-  margin-left: 15vw;
+  top: 3vw;
+  left: 27vw;
 }
 .container header .search input {
   width: 90%;
+  width: 22vw;
+  height: 2vw;
+  border-radius: 20px;
+  border: 1px solid yellowgreen;
+}
+.container header .search input:focus {
+  outline-color: yellowgreen;
+}
+.container header .search i {
+  cursor: pointer;
 }
 .container header .header__right {
   position: absolute;
   display: flex;
   margin: auto;
-  right: 0;
-  top: 2vw;
+  right: 11vw;
+  top: 3.5vw;
   margin-left: 1vw;
 }
 .container header .header__right li {
   margin-left: 1vw;
+  font-size: 0.75vw;
+  cursor: pointer;
+}
+.container header .header__right i {
+  margin-left: 0.3vw;
+  font-size: 0.7vw;
+}
+
+.category {
+  display: flex;
+  border: 1px solid #c8c8c8;
+  border-bottom: 1px solid black;
+  padding: 0.4vw 0vw;
+  top: 5vw;
+}
+.category .lists {
+  display: flex;
+  margin-left: 33vw;
+  font-size: bold;
+}
+.category .lists li {
+  margin: 0 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+.category .lists li:hover {
+  color: coral;
+}
+
+.slick-prev {
+  position: absolute;
+  z-index: 1;
+  top: 21vw;
+  left: 40vw;
+  padding: 0.3vw 0.7vw;
+  border-radius: 10px;
+  border: 1px solid #c8c8c8;
+}
+
+.slick-next {
+  position: absolute;
+  top: 21vw;
+  left: 57vw;
+  z-index: 1;
+  padding: 0.3vw 1vw;
+  border-radius: 10px;
+  border: 1px solid #c8c8c8;
 }
 
 .slide {
   width: 100%;
+  padding-bottom: 2vw;
 }
 
 .container .ad img {
