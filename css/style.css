@@ -73,6 +73,11 @@
   font-size: 0.7vw;
 }
 
+ul,
+li {
+  list-style-type: none;
+}
+
 .category {
   display: flex;
   border: 1px solid #c8c8c8;
