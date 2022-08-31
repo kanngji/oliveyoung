@@ -54,10 +54,11 @@
     //   margin-left: 15vw;
     input {
       width: 90%;
-      width: 22vw;
+      width: 21vw;
       height: 2vw;
       border-radius: 20px;
       border: 1px solid yellowgreen;
+      padding: 0 1vw;
 
       &:focus {
         outline-color: yellowgreen;
@@ -75,7 +76,7 @@
     position: absolute;
     display: flex;
     margin: auto;
-    right: 11vw;
+    right: 8vw;
     top: 3.5vw;
     margin-left: 1vw;
     li {
