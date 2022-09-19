@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit</title>
+  <link rel="stylesheet" href="/css/modify.css">
+
+</head>
+
+<body>
+  <div class="box">
+    <h1>Edit !</h1>
+    <form action="/posts/title/<%= titleName %>" method="POST">
+      <div>
+        <label class="labelTitle">Title</label>
+        <input type="text" name="title" value="<%= titleName %>">
+      </div>
+      <div>
+        <label class="labelContent">Content</label>
+        <!-- <input type="text" name="content" value="<%= contentName %>"> -->
+        <textarea name="content" cols="30" rows="10" required><%= contentName %></textarea>
+      </div>
+
+      <button class="btn btn--blue" class="submit" type="submit">Edit</button>
+    </form>
+  </div>
+</body>
+
+</html>
