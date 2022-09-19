@@ -43,5 +43,5 @@ class명 container로 주기
 %
 Facebook = 강지훈
 Google = 정승수
-Kakao = ?
+Kakao = 1
 Naver = 민정이
